@@ -56,16 +56,36 @@ class Layout extends React.Component {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(35),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer style={{marginTop: rhythm(4.5)}}>
+          <a
+            href="https://twitter.com/mike_pq"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            twitter
+          </a>{' '}
+          &bull;{' '}
+          <a
+            href="https://github.com/michalperlak"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github
+          </a>{' '}
+          &bull;{' '}
+          <a
+            href="https://linkedin.com/in/michalperlak"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin
+          </a>
         </footer>
       </div>
     )

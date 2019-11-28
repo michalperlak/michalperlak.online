@@ -1,4 +1,5 @@
 const path = require(`path`)
+const readingTime = require("reading-time")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -16,6 +17,9 @@ exports.createPages = async ({ graphql, actions }) => {
             node {
               fields {
                 slug
+                readingTime {
+                  text
+                }
               }
               frontmatter {
                 title
@@ -59,6 +63,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: `slug`,
       node,
       value,
-    })
+    });
+    createNodeField({
+      name: `readingTime`,
+      node,
+      value: readingTime(node.rawMarkdownBody),
+    });
   }
 }
