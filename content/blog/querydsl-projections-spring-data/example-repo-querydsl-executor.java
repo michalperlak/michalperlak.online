@@ -1,0 +1,1 @@
+interface UserRepository extends JpaRepository<User, Long>, QuerydslPredicateExecutor<User>
