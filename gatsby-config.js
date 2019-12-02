@@ -17,6 +17,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `michalperlak`
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
@@ -75,5 +81,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+
   ],
 }
