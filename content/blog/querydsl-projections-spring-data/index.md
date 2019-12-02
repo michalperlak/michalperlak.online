@@ -104,7 +104,7 @@ The important thing here is the generated SQL query:
 As you can see only the columns from the projection are fetched during SQL query - that's what we wanted
 to achieve.
 
-Our new API gives us possibilities not only to fetch a projection of a single JPA entity, but we can create also
+Our new API gives us possibilities not only to fetch a projection of a single JPA entity, but we can also
 create a projection of some more complex queries. 
 Our second entity will be a subscription assigned to the user.
 
