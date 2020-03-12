@@ -1,7 +1,7 @@
 ---
 title: Preparing for Spring Professional certification
 date: "2020-03-12T19:12:03.284Z"
-description: "Want to become Pivotal Spring Certified Professional? Here is how I was preparing for the exam"
+description: "Want to become Pivotal Spring Certified Professional? I've become one recently. Was it worth it? How to prepare? Here are my reflections."
 ---
 
 ### Spring Certification
