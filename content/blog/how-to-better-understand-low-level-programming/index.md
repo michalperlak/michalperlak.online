@@ -14,16 +14,17 @@ The second part is about designing virtual machines, operating systems, high lev
 
 ### From NAND to Tetris part 1
 
-The first course is divided into 6 weeks. 
+The first course is divided into 6 weeks. The idea is very simple - every week build some higher level component and
+use it in the next week project. 
 
 Week 1 starts with basic logic gates and how to design higher level chips from them.
 During week 2 the elements designed during the first week are used to build some more complex elements and finally the ALU (Arithmetic Logic Unit) which will be the heart of the CPU.
 
 The week 3 is focused on memory design and how to use gate logic to store values persistently. The outcome of this week is RAM(Random Access Memory) chip and PC(Program Counter) register.
 
-During week 4 the machine language for the future harware platform is designed. The week 5 is focused on desigining the final hardware platform - the Hack computer, using components created in previous weeks.
+During week 4 the machine language for the future hardware platform is designed. The week 5 is focused on designing the final hardware platform - the Hack computer, using components created in previous weeks.
 
-The last week is about desiging the higher level interface for our platform - assembly language.
+The last week is about designing the higher level interface for our platform - assembly language.
 
 ### Links
 
